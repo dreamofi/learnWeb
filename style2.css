@@ -1,0 +1,66 @@
+body{
+    background: url(body.jpg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.landText{
+    width:100%;
+    color:white;
+    position: relative;
+    top:20%;
+    text-align:center;
+    font-size:40px;
+    font-family:Montserrat;
+    height:90px;
+    /*background-color:orange;*/
+}
+
+
+@media only screen and (max-width:768px){
+    .landText{
+        color:white;
+        position: relative;
+        /* top:20%; */
+        text-align:center;
+        font-size:40px;
+        font-family:Montserrat;
+        width:auto;
+        height:90px;
+        /* background-color:teal; */
+    }
+}
+
+.findMoreButton{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#F05F44;
+    width:200px;
+    height:50px;
+    /* border:solid 5px teal; */
+    border-radius:20px;
+}
+
+
+.findMoreButton:hover{
+    /* text-align:center; */
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    /* background-color:red; */
+    /* width:200px; */
+    /* height:50px; */
+    border:solid 10px #F05F44;
+
+    /* width:230px; */
+    /* border-radius:20px; */
+}
+
+.butContainer{
+    width:100%;
+    position:absolute;
+    top:60%;
+    text-align:center;
+}
